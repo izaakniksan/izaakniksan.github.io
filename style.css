@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Chelsea+Market');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+nav {
+  display: fixed;
+  border: 1px solid #000;
+}
+
+nav ul {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color: #204156;
+  font-family: Open Sans,"Trebuchet MS", Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+nav h2{
+  float: right;
+  padding-right: 20px;
+  font-family: Courgette, "Trebuchet MS", Helvetica, sans-serif;
+  color: #204156;
+  margin-top:15px;
+}
+
+.topbar{
+  list-style-type: none;
+  float: right;
+}
+.logos {
+  list-style-type: none;
+  float: right;
+  display: flex;
+}
+
+body {
+
+
+  width:100%;
+  height:100%;
+  background-image: url('http://i.imgur.com/TwQR8Hw.jpg');
+  background-attachment: fixed;
+}
+
+.block_one {
+height: 100vh;
+}
+
+.block_one h1{
+  margin:auto;
+   text-align: center;
+  margin-top:20rem;
+  font-size: 50px;
+  font-family: Josefin Sans, Chelsea Market,"Trebuchet MS", Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+.aboutme {
+   font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
+   color:white;
+   height: 100vh;
+}
+
+.aboutme h2 {
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.aboutme h2 span {
+  background: black;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.aboutme h2:before {
+  background: black;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 100%;
+}
+
+.aboutme h2:before {
+  left: 0;
+}
+
+.aboutme p {
+
+  padding-left: 18%;
+  padding-right:18%;
+ margin-top: 40px;
+ text-align:center;
+ color:white;
+ font-size: 35px;
+}

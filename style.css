@@ -47,9 +47,11 @@ body {
 
 .block_one {
 height: 100vh;
+position: relative;
 }
 
 .block_one h1{
+  
   margin:auto;
    text-align: center;
   margin-top:18rem;
@@ -59,6 +61,7 @@ height: 100vh;
   text-shadow: 2px 2px black;
 }
 .aboutme {
+  position: relative;
    font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
    height: 100vh;
    margin:auto;
@@ -66,7 +69,7 @@ height: 100vh;
 }
 
 .aboutme h2 {
-  position: relative;
+ 
   text-align: center;
   width: 50%;
   font-weight: normal;
@@ -74,6 +77,69 @@ height: 100vh;
   color: white;
   text-shadow: 2px 2px orange;
 }
+
+.aboutme p {
+
+width: 50%;
+ margin-top: 200px;
+ text-align:center;
+   color: white;
+  text-shadow: 2px 2px black;
+ font-size: 35px;
+}
+
+.experience {
+   font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
+   height: 100vh;
+   display:block;
+   margin:auto;
+position: relative;
+}
+
+.experience h2 {
+
+  text-align: center;
+  width: 50%;
+  font-weight: normal;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px orange;
+  
+}
+
+.experience p {
+width: 50%;
+ margin-top: 80px;
+ text-align:center;
+   color: white;
+  text-shadow: 2px 2px black;
+ font-size: 35px;
+
+}
+
+.contact {
+   font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
+   height: 100vh;
+   display:inline;
+   position: relative;
+}
+
+.contact h2 {
+
+  text-align: center;
+  width: 50%;
+  font-weight: normal;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px orange;
+}
+
+
+
+
+
+
+
 
 /*
 .aboutme h2 span {
@@ -97,53 +163,3 @@ height: 100vh;
   left: 0;
 }
 */
-.aboutme p {
-width: 50%;
- margin-top: 250px;
- text-align:center;
-   color: white;
-  text-shadow: 2px 2px black;
- font-size: 35px;
-}
-
-.experience {
-   font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
-   height: 100vh;
-   display:block;
-   margin:auto;
-}
-
-.experience h2 {
-  position: relative;
-  text-align: center;
-  width: 50%;
-  font-weight: normal;
-  font-size: 70px;
-  color: white;
-  text-shadow: 2px 2px orange;
-}
-
-.experience p {
-width: 50%;
- margin-top: 80px;
- text-align:center;
-   color: white;
-  text-shadow: 2px 2px black;
- font-size: 35px;
-}
-
-.contact {
-   font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
-   height: 100vh;
-   display:inline;
-}
-
-.contact h2 {
-  position: relative;
-  text-align: center;
-  width: 50%;
-  font-weight: normal;
-  font-size: 70px;
-  color: white;
-  text-shadow: 2px 2px orange;
-}

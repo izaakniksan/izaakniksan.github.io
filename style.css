@@ -63,7 +63,8 @@ position: relative;
 .aboutme {
   position: relative;
    font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
-   height: 100vh;
+   
+   min-height: 100vh;
    margin:auto;
    display:block;
 }
@@ -90,7 +91,7 @@ width: 50%;
 
 .experience {
    font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
-   height: 100vh;
+   min-height: 100vh;
    display:block;
    margin:auto;
 position: relative;
@@ -119,7 +120,7 @@ width: 50%;
 
 .contact {
    font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
-   height: 100vh;
+   min-height: 100vh;
    display:inline;
    position: relative;
 }

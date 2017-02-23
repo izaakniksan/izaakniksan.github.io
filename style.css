@@ -92,6 +92,8 @@ float: left;
 }
 
 .aboutme img{
+  width:100%;
+  
   display: block;
   margin-right: 140px;
   float:right;

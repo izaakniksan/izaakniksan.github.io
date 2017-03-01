@@ -40,7 +40,7 @@ nav h2{
 
 body {
 
-  background-image: url('http://i.imgur.com/gQqamZD.jpg');
+  background-image: url('http://i.imgur.com/l6tBQje.jpg');
   background-attachment: fixed;
   background-size:cover;
 }
@@ -72,18 +72,18 @@ position: relative;
 .aboutme h2 {
  
   text-align: center;
-  width: 50%;
+  
   font-weight: normal;
-  font-size: 70px;
+  font-size: 90px;
   color: white;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px orange;
 }
 
 .aboutme p {
 
 width: 50%;
 float: left;
- margin-top: 130px;
+ margin-top: 100px;
  margin-left: 20px;
  text-align:center;
    color: white;
@@ -99,7 +99,7 @@ float: left;
   height: auto;
   width: auto;
   max-width:400px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .experience {
    font-family: Josefin Sans,"Trebuchet MS", Helvetica, sans-serif;
@@ -112,9 +112,9 @@ position: relative;
 .experience h2 {
 
   text-align: center;
-  width: 50%;
+  margin-bottom: 10px;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 90px;
   color: white;
   text-shadow: 2px 2px orange;
   
@@ -122,7 +122,7 @@ position: relative;
 
 .experience p {
 width: 50%;
- margin-top: 80px;
+ margin-top: 45px;
  text-align:center;
    color: white;
   text-shadow: 2px 2px black;
